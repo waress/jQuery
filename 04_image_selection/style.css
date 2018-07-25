@@ -1,0 +1,12 @@
+.half-scale {
+  transform: scale(0.5); /* Equal to scaleX(2) scaleY(0.5) */
+  transform-origin: bottom;
+}
+
+img {
+  transition: all ease .25s;
+}
+
+h3, p {
+  text-align: center;
+}
