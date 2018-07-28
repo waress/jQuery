@@ -28,23 +28,39 @@
       </div>
 
 
-<!--     jelszó-->
+      <!--     jelszó-->
       <div class="form-group">
         <label for="password">Jelszó</label>
         <input type="password" class="form-control" id="password" placeholder="Jelszó">
         <small id="" class="form-text text-muted">Legalább 6 karakter hosszú legyen</small>
       </div>
 
-<!--     ÁSZF-->
+      <!--     ÁSZF-->
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="aszf">
         <label class="form-check-label" for="aszf">Elfogadom az <a href="#">ÁSZF</a>-et</label>
       </div>
 
-<!--     Regisztráció-->
+      <!--     Regisztráció-->
       <button type="submit" class="btn btn-primary">Regisztráció</button>
 
     </form>
+
+    <!--    sikeres regisztráció-->
+    <div class="m-4" style="display: none" id="successText">
+      Sikeres regisztráció, hamarosan átirányítunk...
+    </div>
+
+    <!--    hibás mezők-->
+    <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert" style="display: none">
+      <strong>Az következő mezők nincsenek megfelelően kitöltve:</strong>
+      <ul>
+
+      </ul>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
 
 
   </div>
